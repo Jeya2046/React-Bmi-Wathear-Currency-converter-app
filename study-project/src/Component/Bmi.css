@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #535c68;
+}
+
+.Bmi-calculater{
+    width: 800px;
+    height: 550px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1);
+    display: flex;
+}
+
+.box{
+    width: 350px;
+    background-image: url(../assets/bmi1.jpg);
+    background-image: 310px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.data{
+    flex: 1;
+    padding: 15px;
+}
+
+h1{
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 30px;
+    color: rgb(168, 25, 37);
+}
+
+.input-container{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #888;
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+
+}
+
+button{
+    padding: 10px;
+    width: 10rem;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color:#c8ecea;
+    font-size: 17px;
+    font-weight: 900;
+    transition: background-color ease 0.3s;
+}
+
+button:hover{
+    background-color: blue;
+    color: #c8ecea;
+}
+
+.result{
+    margin-top: 20px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.result p{
+    color: #535c68;
+    margin: 10px 0;
+}
+
+.result p:first-child{
+    color: blue;
+    font-weight: bold;
+}
+
+.error{
+    margin-bottom: 20px;
+    color: red;
+}
+
+.data button:nth-of-type(2){
+    width: 6rem;
+    margin-left: 10px;
+    background-color: #ff9999;
+    border: 2px solid red;
+}
+
+.data button:nth-of-type(2):hover{
+    color: #ffe6e6;
+    background-color: red;
+}
